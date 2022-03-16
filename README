@@ -1,0 +1,12 @@
+Library Project
+
+http://localhost:8080/createBook --> Creates book in Postman 
+http://localhost:8080/getBooks --> Reads all books Postman 
+http://localhost:8080/getById/{bookId} --> Reads book by ID Postman 
+http://localhost:8080/removeBook/{bookId} --> Deletes book by ID Postman 
+http://localhost:8080/update/{bookId} --> Update by ID Postman 
+
+You need to run a maven clean build and build the jar file yourself
+
+Uses mysql
+
